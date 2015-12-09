@@ -3,7 +3,7 @@ class EulerThirty
   attr_reader :range, :answers
 
   def initialize
-    @range = (2..354295)
+    @range = (2..1000000)
     @answers = []
     check_each
   end
